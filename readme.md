@@ -6,6 +6,10 @@ This is a age calculator developed using html, tailwindcss and javascript which 
 
 ## Video
 
+https://user-images.githubusercontent.com/109405477/193402868-a1859c4b-a38b-4ed6-938f-ac64e899c6cd.mp4
+
+
+
 **Check it out at : https://agecalculatornow.netlify.app/**
 
 ## 🚀 About Me
