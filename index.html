@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="font-['Plus_Jakarta_Sans'] text-[#00271A] bg-[#D3FCD5] overflow-hidden"
+  >
+    <img
+      src="./assets/logo.png"
+      alt=""
+      class="logo h-[45px] mt-7 ml-7 hidden sm:block"
+    />
+    <h1 class="text-center text-4xl mt-14 sm:mt-0 font-[800] text-[#00271A]">
+      AGE CALCULATOR
+    </h1>
+
+    <div
+      class="section h-[85vh] flex flex-col justify-center items-center -mt-10"
+    >
+      <div
+        class="main bg-[#ACF7C1] rounded px-10 py-10 flex flex-col items-center max-w-[95%]"
+      >
+        <div class="flex flex-col items-center">
+          <label for="dob" class="text-2xl font-[600] text-center"
+            >Enter Your Date of Birth</label
+          ><br />
+          <div class="inp-btn flex gap-10 flex-col items-center sm:flex-row">
+            <input
+              type="date"
+              name=""
+              id="dob"
+              class="text-2xl rounded border-2 border-[#093824] font-[500]"
+            />
+            <button
+              class="btn text-xl bg-[#093824] text-[#D3FCD5] px-4 py-2 rounded hover:scale-110 duration-200 transition-all ease-in-out font-[500]"
+              id="btn"
+            >
+              Show My Age
+            </button>
+          </div>
+        </div>
+
+        <p
+          id="result"
+          class="result px-4 py-2 mt-10 rounded text-lg font-[500] bg-[#093824] text-[#D3FCD5] hidden"
+        >
+          OP
+        </p>
+      </div>
+    </div>
+
+    <script src="./agecalc.js"></script>
+  </body>
+</html>
